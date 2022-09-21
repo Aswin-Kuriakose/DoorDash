@@ -110,4 +110,6 @@ header {
 .welcome-input div svg {
     margin: 5px;
 }
-
+.welcome-input input::placeholder {
+    font-size: large;
+}
