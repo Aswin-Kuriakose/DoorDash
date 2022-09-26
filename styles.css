@@ -86,17 +86,18 @@ header {
 }
 .welcome-input {   
     display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    margin: 0 40%;
+    /* flex-flow: row; */
+    align-items: center;
+    max-width: fit-content;
+    margin: 0 auto;
     background: var(--white);
-    padding: 0px 0px;
+    padding: 10px 0px;
     border-radius: 1000px;
 }
 .welcome-input input {
     border:var(--white);
-    padding: 0 50px 0 0;
-    margin-bottom: 5px;
+    /* padding: 0 50px 0 0;
+    margin-bottom: 5px; */
 }
 .welcome-input button svg {
     border-radius: 100px;
@@ -109,7 +110,8 @@ header {
     padding: 1px;
     border-radius: 100px;
     border: none;
-    margin: 0 4px;
+    width: 100px;
+    margin-left: 15px;
 }
 .welcome-input div svg {
     margin: 5px;
@@ -220,7 +222,7 @@ header {
     border-radius: 100px;
     color: var(--white);
     padding:10px 16px;
-    grid-column: ;
+    /* grid-column: ; */
 }
 .sec3 img{
     width: 100%;
@@ -235,7 +237,80 @@ footer{
 }
 footer a {
     color: var(--footer);
+    font-size: 14px;
+    line-height: 2em;
 }
-footer div {
+.part1, .part2, .third-row {
+    padding: 32px 0 ;
+}
+.second-row div {
     padding-top: 32px;
+}
+footer a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+footer>div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* max-width:960px; */
+    width: fit-content;
+    margin: 0 auto;
+}
+.first-row , .second-row , .third-row, .footer-row{
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer-row div, .second-row div {
+    padding-right: 100px;
+}
+footer h2 {
+    font-size: 16px;
+}
+.application {
+    justify-content: flex-end;
+}
+.application svg {
+    fill: var(--footer);
+    background:rgba(73, 73, 73, 0.7);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px !important;
+}
+/* .app-store, .google-store {
+    background:rgba(73, 73, 73, 0.7);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px !important;
+}
+.app-store:hover, .google-store:hover{
+    color: var(--white);}
+     */
+.application svg:hover {
+    fill: var(--white);
+}
+
+.third-row {
+    width: 100%;
+    justify-content: space-between;
+}
+.copyright {
+    font-size: 10px;
+}
+.bottom-left a{
+    font-size: 10px;
+    padding: 0 15px ;
+} 
+div.application {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.application div {
+    padding-right: 0; 
 }
