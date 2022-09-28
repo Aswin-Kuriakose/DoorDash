@@ -123,7 +123,9 @@ header {
     color: #696666;
 }
 .welcome-link {
-    margin: 16px 45%;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
 }
 .welcome-link a {    
     color: var(--white);
@@ -144,31 +146,43 @@ header {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 8px;
-    margin: 96px 0px;
+    margin: 96px 50px 96px 0;
     padding: 12px;
 }
 .scooter {
     grid-column: 2/3;
     padding: 16px;
     margin: 0 17px;
+    text-align: center;
 }
 .store {
     grid-column: 3/4;
     padding: 16px;
     margin: 0 17px;
+    text-align: center;
 }
 .mobile {
     grid-column: 4/5;
     padding: 16px;
     margin: 0 17px;
+    text-align: center;
+
+}
+.sec1 {
+    margin-right: 50px;
+}
+.scooter {
+    margin: 0 50px 0 0;
 }
 .sec1 h2 {
+    margin: 0;
     font-size: 32px;
     font:bold;
 
 }
 .sec1 h3 {
     font-size: 18px;
+    font-weight:normal;
     }
 .sec1 img {
     height: 155px;
@@ -177,6 +191,7 @@ header {
 .sec1 a {
     color: #eb1700;
     margin-top: 12px;
+    font-weight: bold;
 }
 
 .big-text {
@@ -184,6 +199,7 @@ header {
     color: var(--text);
     font-family: doordashR;
     margin: 15px 0;
+    font-weight: bolder;
 }
 .small-text {
     font-size: 18px;
@@ -258,6 +274,7 @@ header {
 .sec3-text {
     width: 410px;
     margin:100px 0 0 64px;
+    line-height: 1.5em;
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,7 +287,7 @@ footer{
 }
 .footer {
     width: 1200px;
-    height: 836px;
+    height: 830px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -306,41 +323,18 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer a {
     color: var(--footer);
     font-size: 14px;
     line-height: 2em;
 }
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
 footer h2 {
     font-size: 16px;
+    font-weight: normal;
 }
 .application div{
     width: 160px;
@@ -349,15 +343,106 @@ footer h2 {
     border-radius: 10px;
     margin: 10px;
 }
+
 .copyright {
-    font-size: 10px;
-    color:#fff;
+    font-size: 12px;
+    color:#a8a1a1;
 }
 .bottom-left a{
-    font-size: 10px;
-    padding: 0 15px ;
+    font-size: 12px;
+    padding: 0 8px ;
 } 
+.bottom-left a:hover {
+    text-decoration: underline;
+    color: var(--footer);
+}
 .socials svg {
-    fill:#f00;
+    fill:#9e9797;
     margin-left: 5px;
+}
+.socials svg:hover {
+    fill: var(--footer);
+}
+.application div:hover {
+    fill:#fff;
+    opacity: 1;
+}
+div.first-row {
+    margin-top: 0;
+    padding-top:0;
+}
+.padri {
+    margin-right: 100px;
+}
+@media screen and (max-width:1183px) {
+    .welcome-input button {
+        background: #fff;
+    }
+    .welcome-input button svg {
+        color:#696666;
+    }
+    .sec1 {
+        width: 486px;
+        height: 648px;
+        margin: 0 auto;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec1 img {
+        width: 124px;
+    }
+    .scooter , .store, .mobile{
+        display: flex;
+        flex-direction: row;
+        padding:16px;
+        gap: 70px;
+        margin: 0;
+    }
+    .scooter{
+        white-space: nowrap;
+        margin-top: 32px;
+    }
+    .sec1 h3 {
+        margin: 0;
+        /* line-height: 1.5em; */
+    }
+    .sec1 a {
+        font-size: 13px;
+    }
+    .sec1-text {
+        width:250px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        text-align: start;
+    }
+    .sec2 {
+        display: flex;
+        transform: translateY(70px);
+
+    }
+    .sec2 img {
+        width: 680px;
+        transform: translateX(10px);
+    }
+    .sec2-text {
+        width: 340px;
+    }
+    .big-text {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.4em;
+    }
+    .small-text {
+        font-size: 14px;
+        line-height: 1.4em;
+    }
+    .sec3 img {
+        width: 680px;
+    }
+    .sec3 {
+        padding: 200px 0 200px 0;
+    }
+
 }
