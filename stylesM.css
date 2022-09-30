@@ -150,14 +150,16 @@ margin-left: 10px;
 .sec2 {
     display: flex;
     flex-flow: column-reverse;
+    margin-bottom: -288px;
 }
 .sec2 img {
     max-width: 500px;
     margin-left: 64px;
 }
 .sec2-text {
-    padding: 0 16px;
-    margin: 0 auto;
+    width: 400px;
+    padding: 0 82px 0 16px;
+    margin: 24px auto;
 }
 .big-text {
     font-size: 24px;
@@ -174,14 +176,17 @@ margin-left: 10px;
     color: var(--white);
     border-radius: 100px;
 }
-
 .small-text {
     font-size: 14px;
     color: var(--text);
 }
-.sec3 {
+.section3-bg {
     background: rgb(255, 240, 237);
-    padding: 100px 50px;    
+}
+.sec3 {
+    padding: 336px 0 96px 0;    
+    margin-right: 64px;
+
 }
 .sec3 a {
     width: 100px;
@@ -193,3 +198,80 @@ margin-left: 10px;
     color: var(--white);
     border-radius: 100px;
 }
+.sec3 img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+.sec3-text {
+    width: 400px;
+    padding: 0 82px 0 16px;
+    margin: 24px auto;
+}
+
+
+
+
+footer {
+    background: var(--footer-bg);
+    color: var(--white);
+    margin-bottom: 30px;
+}
+footer a {
+    color: var(--footer);
+    font-size: 14px;
+    line-height: 2em;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.application div {
+    width: 160px;
+    background: #494949;
+    opacity: 0.7;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #a8a1a1;
+}
+
+.bottom-left a {
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+.bottom-left a:hover {
+    text-decoration: underline;
+    color: var(--footer);
+}
+
+.socials svg {
+    fill: #9e9797;
+    margin-left: 5px;
+}
+
+.socials svg:hover {
+    fill: var(--footer);
+}
+
+.application div:hover {
+    fill: #fff;
+    opacity: 1;
+}
+
+div.first-row {
+    margin-top: 0;
+    padding-top: 0;
+}
+
