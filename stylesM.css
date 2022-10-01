@@ -90,9 +90,10 @@ margin-left: 10px;
     justify-content: center;
 }
 .welcome-link a {
-    color: var(--white);
+    color:#fff;
     text-decoration: underline;
-    font-weight:300;
+    font-size: 15px;
+    font-weight:400;
     font-family: "roboto";
 }
 .welcome-input input {
@@ -298,5 +299,42 @@ div.first-row {
     align-items: center;
 }
 
+@media screen and (min-width:770px){
+    .sec2 {
+        flex-direction: row;
+        margin-bottom: -16px;
+    }
+    .sec2 img {
+     
+        /* max-width: 713px; */
+    }
+    .sec2-text{
+        margin: 0 0 96px 64px ;
+        padding: 0;
+    }
+    .sec3 {
+        padding: 96px 0;
+        display: flex;
+    }
+    .first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer-con-1 {
+        display: flex;
+        
+    }
+    #footer-con-2 {
+        display: flex;
 
+    }
+    .third-row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+  
+
+}
