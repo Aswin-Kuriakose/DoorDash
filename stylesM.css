@@ -209,18 +209,32 @@ margin-left: 10px;
     margin: 24px auto;
 }
 
-
-
+.footer {
+    padding: 0 20px;
+    text-align: center;
+}
+.first-row , .third-row {
+    padding:32px 0;
+}
+.footdiv {
+    padding-top: 32px ;
+}
+.part1 , .part2, .application {
+    padding-top: 32px;
+    width: 230px;
+}
 
 footer {
     background: var(--footer-bg);
     color: var(--white);
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 footer a {
     color: var(--footer);
     font-size: 14px;
     line-height: 2em;
+    margin: 0 auto;
+
 }
 
 footer a:hover {
@@ -231,26 +245,27 @@ footer a:hover {
 footer h2 {
     font-size: 16px;
     font-weight: normal;
+    margin: 0 0 8px 0;
 }
-
 .application div {
     width: 160px;
     background: #494949;
     opacity: 0.7;
     border-radius: 10px;
-    margin: 10px;
+    margin:10px 32px ;
 }
-
 .copyright {
     font-size: 12px;
     color: #a8a1a1;
 }
-
-.bottom-left a {
-    font-size: 12px;
-    padding: 0 8px;
+.bottom-left {
+    margin-top: 12px;
 }
-
+.bottom-left  a{
+    font-size:12px;
+    font-weight: 400;
+    margin:0 8px 0 8px;
+}
 .bottom-left a:hover {
     text-decoration: underline;
     color: var(--footer);
@@ -260,7 +275,6 @@ footer h2 {
     fill: #9e9797;
     margin-left: 5px;
 }
-
 .socials svg:hover {
     fill: var(--footer);
 }
@@ -274,4 +288,15 @@ div.first-row {
     margin-top: 0;
     padding-top: 0;
 }
+.first-row {
+    display: flex;
+    justify-content: center;
+}
+.second-row,.third-row {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+}
+
+
 
