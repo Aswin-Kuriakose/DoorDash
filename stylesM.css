@@ -422,10 +422,12 @@ div.first-row {
         align-items:center;
     }
     .welcome h2 {
+        margin:50px 0 35px -150px ;
         position:static;
-        font-size: 64px;
+        font-size: 62px;
+        line-height: 1.2em;
+        max-width: 800px;
         width: 668px;
-        margin: 0;
         padding: 0;
     }
     .logo {
@@ -455,9 +457,96 @@ div.first-row {
         margin: 0px;
     }
     .second-row {
+        width: 100%;
         flex-direction: row;
-        gap: 300px;
+        align-items:flex-start;
+        gap: 40%;
     }
-    
-   
+    .application div {
+        margin: 10px 0;
+    }
+    .application {
+        margin: 0px;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+    }  
+}
+@media screen and (min-width:1200px){
+    .welcome-input button {
+        text-decoration: none;
+        background: rgb(235, 23, 0);
+        border-radius: 150px;
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: 4px;
+    }
+    .welcome-input button svg {
+        color: #fff;
+    }
+    .sec1 {
+        width: 1184px;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: 96px auto;
+    }
+    .scooter ,.store,.mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1 img {
+        width: 154px;
+        height: 154px;
+        margin: 0px;
+
+    }
+    .sec1-text h2 {
+        margin: 0px ;
+    }
+    .sec1-text h3 {
+        margin: 8px 0 12px 0;
+    }
+    .sec1-text a {
+        font-size: 18px;
+    }
+    .sec2 {
+        margin: 0 auto ;
+        width :1184px;
+        margin-bottom: -26px;
+        flex-direction: row;
+        align-items:center;
+
+    }
+    .sec2-text {
+        margin :0 0 96px 0;
+    }
+    .big-text {
+        font-size: 40px;
+    }
+    .small-text {
+        font-size: 18px;
+        margin: 12px 0 12px 0;
+    }
+    .sec2 a,.sec3 a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .sec3 {
+        flex-direction: row;
+        align-items: center;
+        width: 1184px;
+        margin: 0 auto;
+    }
+    .sec3 img {
+        width: 712px;
+    }
+    .footer {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
 }
