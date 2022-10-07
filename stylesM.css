@@ -28,7 +28,7 @@ header {
     position: absolute;
     top: 26px;
     right: 24px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .sign-up {
     color: #353535;
@@ -56,19 +56,25 @@ header {
     align-items: center;
     font-weight: bold;
 }
+.welcome {
+    min-width: 320px;
+}
 .welcome-text{
-    width: 334px;
+    min-width: 320px;
     font-size: 21px;
     color: var(--white);
 }
 .welcome-text h2 {
-margin-left: 10px;
+    min-width: 300px;
+    /* margin-left: 10px; */
+    line-height: 1.3em;
+    text-align: center;
 }
 .location {
     display: none;
 }
 .search {
-    margin: 8px;
+    margin: 0 8px 0 12px;
 }
 .welcome-input {
     display: flex;
@@ -85,7 +91,7 @@ margin-left: 10px;
     margin-left: 8px;
 }
 .welcome-link {
-    margin: 16px 0;
+    margin: 18px 0;
     display: flex;
     justify-content: center;
 }
@@ -93,7 +99,7 @@ margin-left: 10px;
     color:#fff;
     text-decoration: underline;
     font-size: 15px;
-    font-weight:400;
+    font-weight:500;
     font-family: "roboto";
 }
 .welcome-input input {
@@ -109,19 +115,24 @@ margin-left: 10px;
     border: none;
     width: 40px;
     height: 40px;
-    margin: 4px;
 }
 .welcome-input input::placeholder {
     font-size: 15px;
     color: #696666;
+    font-weight: 550;
 }
 .sec1 {
+    min-width: 320px;
     display: flex;
     flex-flow: column;
     align-items: center;
     margin: 40px auto;
     padding: 8px;
     font-weight: normal;
+}
+.sec1-text {
+    width: 208px;
+
 }
 .sec1 img {
     width: 88px;
@@ -130,38 +141,44 @@ margin-left: 10px;
 }
 .scooter , .store , .mobile {
     display: flex;
-    align-items: center;
-    /* padding: 16px; */
-    width: 380px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100vw;
+    max-width: 380px;
 }
 .sec1 h2 {
+    /* white-space: nowrap; */
     font-size: 32px;
-    margin-bottom: 0;
+    margin: 0;
 }
 .sec1 h3 {
     font-size: 18px;
     font-weight: normal;
-    margin-top: 0;
+    margin:0 0 12px 0;
 }
 .sec1 a {
     color: #eb1700;
     margin-top: 14px;
+    font-size: 14px;
     font-weight: bold;
 }
 .sec2 {
+    width: 100%;
     display: flex;
     flex-flow: column-reverse;
     margin-bottom: -288px;
+    align-items: flex-end;
+    margin-left:  64px;
+
 }
 .sec2 img {
-    position: relative;
-    right: 0px;
+    width: 100%;
     max-width: 500px;
-    margin-left: 64px;
 }
 .sec2-text {
-    width: 400px;
-    padding: 0 82px 0 16px;
+    width: 300px;
+    padding: 0 0 0 16px;
     margin: 24px auto;
 }
 .big-text {
@@ -207,8 +224,8 @@ margin-left: 10px;
     height: auto;
 }
 .sec3-text {
-    width: 400px;
-    padding: 0 82px 0 16px;
+    width: 300px;
+    padding: 0 82px 0 20px;
     margin: 24px auto;
 }
 
