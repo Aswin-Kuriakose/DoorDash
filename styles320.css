@@ -50,6 +50,7 @@ header {
     height:32px;
 }
 .header-content {
+    margin-top: 3px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -66,7 +67,8 @@ header {
 }
 .welcome-text h2 {
     min-width: 300px;
-    /* margin-left: 10px; */
+    margin-top: 23px;
+
     line-height: 1.3em;
     text-align: center;
 }
@@ -74,6 +76,9 @@ header {
     display: none;
 }
 .search {
+    width: 24px;
+    height: 24px;
+    /* padding-left: 12px; */
     margin: 0 8px 0 12px;
 }
 .welcome-input {
@@ -104,6 +109,7 @@ header {
 }
 .welcome-input input {
     border: var(--white);
+    width: 70%;
 }
 .welcome-input button svg {
     color:#413d3d;
@@ -147,8 +153,7 @@ header {
     width: 100vw;
     max-width: 380px;
 }
-.sec1 h2 {
-    /* white-space: nowrap; */
+    .sec1 h2 {
     font-size: 32px;
     margin: 0;
 }
@@ -177,6 +182,11 @@ header {
     max-width: 500px;
 }
 .sec2-text {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: flex-start;
+    left: 0px ;
     width: 300px;
     padding: 0 0 0 16px;
     margin: 24px 0;
@@ -323,252 +333,4 @@ div.first-row {
     align-items: center;
 }
 
-@media screen and (min-width:770px){
 
-    .welcome-input {
-        width: 408px;
-        border-radius: 1000px;
-    }
-    .welcome h2 {
-    position: relative;
-    left: 30px;
-    line-height: 1.3em;
-    margin-left: 0;
-    margin-right: 0;
-    }
-    .search {
-        display: none;
-    }
-    .location {
-        display: block;
-        margin: 0 0 0 5px;
-    }
-    .sec1 img {
-        width: 124px;
-        height:124px;
-        margin-right: 64px;
-    }
-    .sec1-text {
-        width: 250px;
-    }
-    .sec1 {
-        margin: 32px 0px;
-    }
-    .scooter, .store, .mobile {
-        width: 470px;
-    }
-    .sec1 h3 {
-        font-size: 18px;
-    }
-    .sec1 a {
-        font-size: 14px;
-    }
-    .sec2 {
-        flex-direction: row;
-        margin-top: 50px;
-        margin-bottom: -16px;
-        gap: 50px;
-    }
-    .welcome-input input {
-        width: 325px;
-        margin: 0 0 0 8px;
-    }
-   
-     
-    
-    .sec2-text{
-        margin: 0 0 96px 64px ;
-        padding: 0;
-    }
-    .sec2 img {
-        margin: 0px;
-        width: 40vw;
-        flex-grow: 1;
-        min-width: 425px;
-        max-width: 713px;
-    }
-    .sec3 {
-        padding: 96px 0;
-        margin: 0px;
-        display: flex;
-    }
-    .sec3 img {
-        margin: 0px;
-        width: 40vw;
-        min-width: 425px;
-        flex-grow: 1;
-        max-width: 713px;
-    }
-    .sec3-text {
-        margin: 0 64px 96px 64px;
-        padding: 0;
-    }
-    .first-row {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-    }
-    .footer {
-        text-align:start ;
-    }
-    .part1 {
-        width: 80%;
-    }
-    .part2{
-        margin-top: 50px;
-        width: 67%;
-    }
-    .application {
-        margin-top: 20px;
-        
-    }
-    #footer-con-3 , #footer-con-1 , #footer-con-2 {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .third-row {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-@media screen and (min-width:960px){
-    .welcome {
-        width: 670px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items:center;
-    }
-    .welcome h2 {
-        margin:50px 0 35px -150px ;
-        position:static;
-        font-size: 62px;
-        line-height: 1.2em;
-        max-width: 800px;
-        width: 668px;
-        padding: 0;
-    }
-    .logo {
-        display: flex;
-        align-items: center;
-        gap: 17px;
-        position: absolute;
-        top: 22px;;
-    }
-    .logo-text{
-        display: block;
-    }
-    .logo-emblem svg {
-        width: 42px;
-        height: 24px;
-    }
-    header {
-        height: 580px;
-    }
-    .first-row {
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        gap: 80px;
-    }
-    .part2 {
-        margin: 0px;
-    }
-    .second-row {
-        width: 100%;
-        flex-direction: row;
-        align-items:flex-start;
-        gap: 40%;
-    }
-    .application div {
-        margin: 10px 0;
-    }
-    .application {
-        margin: 0px;
-        display: flex;
-        flex-flow: column;
-        justify-content: flex-start;
-    }  
-}
-@media screen and (min-width:1200px){
-    .welcome-input button {
-        text-decoration: none;
-        background: rgb(235, 23, 0);
-        border-radius: 150px;
-        border: none;
-        width: 40px;
-        height: 40px;
-        margin: 4px;
-    }
-    .welcome-input button svg {
-        color: #fff;
-    }
-    .sec1 {
-        width: 1184px;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        margin: 96px auto;
-    }
-    .scooter ,.store,.mobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .sec1 img {
-        width: 154px;
-        height: 154px;
-        margin: 0px;
-
-    }
-    .sec1-text h2 {
-        margin: 0px ;
-    }
-    .sec1-text h3 {
-        margin: 8px 0 12px 0;
-    }
-    .sec1-text a {
-        font-size: 18px;
-    }
-    .sec2 {
-        margin: 0 auto ;
-        width :1184px;
-        margin-bottom: -26px;
-        flex-direction: row;
-        align-items:center;
-
-    }
-    .sec2-text {
-        margin :0 0 96px 0;
-    }
-    .big-text {
-        font-size: 40px;
-    }
-    .small-text {
-        font-size: 18px;
-        margin: 12px 0 12px 0;
-    }
-    .sec2 a,.sec3 a {
-        font-size: 16px;
-        padding: 10px 20px;
-    }
-    .sec3 {
-        flex-direction: row;
-        align-items: center;
-        width: 1184px;
-        margin: 0 auto;
-    }
-    .sec3 img {
-        width: 712px;
-    }
-    .footer {
-        width: 1200px;
-        margin: 0 auto;
-    }
-
-}

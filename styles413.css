@@ -1,0 +1,12 @@
+@media screen and(max-width:413px) {
+    
+    .sec1-text h2 {
+        white-space: wrap;
+    }
+  
+}
+@media screen and (min-width:414px){
+    .sec1-text h2 {
+        white-space: nowrap;
+    }
+}

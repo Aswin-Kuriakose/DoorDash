@@ -1,0 +1,59 @@
+@media screen and (min-width:960px){
+    .welcome {
+        width: 670px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .welcome h2 {
+        margin:50px 0 35px -150px ;
+        position:static;
+        font-size: 62px;
+        line-height: 1.2em;
+        max-width: 800px;
+        width: 668px;
+        padding: 0;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        position: absolute;
+        top: 22px;;
+    }
+    .logo-text{
+        display: block;
+    }
+    .logo-emblem svg {
+        width: 42px;
+        height: 24px;
+    }
+    header {
+        height: 580px;
+    }
+    .first-row {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+    .part2 {
+        margin: 0px;
+    }
+    .second-row {
+        width: 100%;
+        flex-direction: row;
+        align-items:flex-start;
+        gap: 40%;
+    }
+    .application div {
+        margin: 10px 0;
+    }
+    .application {
+        margin: 0px;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+    }  
+}

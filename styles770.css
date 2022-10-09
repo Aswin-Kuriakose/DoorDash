@@ -1,0 +1,112 @@
+@media screen and (min-width:770px){
+
+    .welcome-input {
+        width: 408px;
+        border-radius: 1000px;
+    }
+    .welcome h2 {
+    position: relative;
+    left: 30px;
+    line-height: 1.3em;
+    margin-left: 0;
+    margin-right: 0;
+    }
+    .search {
+        display: none;
+    }
+    .location {
+        display: block;
+        margin: 0 0 0 5px;
+    }
+    .sec1 img {
+        width: 124px;
+        height:124px;
+        margin-right: 64px;
+    }
+    .sec1-text {
+        width: 250px;
+    }
+    .sec1 {
+        margin: 32px 0px;
+    }
+    .scooter, .store, .mobile {
+        width: 470px;
+    }
+    .sec1 h3 {
+        font-size: 18px;
+    }
+    .sec1 a {
+        font-size: 14px;
+    }
+    .sec2 {
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: -16px;
+        gap: 50px;
+    }
+    .welcome-input input {
+        width: 325px;
+        margin: 0 0 0 8px;
+    }
+   
+     
+    
+    .sec2-text{
+        margin: 0 0 96px 64px ;
+        padding: 0;
+    }
+    .sec2 img {
+        margin: 0px;
+        width: 40vw;
+        flex-grow: 1;
+        min-width: 425px;
+        max-width: 713px;
+    }
+    .sec3 {
+        padding: 96px 0;
+        margin: 0px;
+        display: flex;
+    }
+    .sec3 img {
+        margin: 0px;
+        width: 40vw;
+        min-width: 425px;
+        flex-grow: 1;
+        max-width: 713px;
+    }
+    .sec3-text {
+        margin: 0 64px 96px 64px;
+        padding: 0;
+    }
+    .first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .footer {
+        text-align:start ;
+    }
+    .part1 {
+        width: 80%;
+    }
+    .part2{
+        margin-top: 50px;
+        width: 67%;
+    }
+    .application {
+        margin-top: 20px;
+        
+    }
+    #footer-con-3 , #footer-con-1 , #footer-con-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .third-row {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
