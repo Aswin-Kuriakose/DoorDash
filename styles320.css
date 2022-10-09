@@ -188,7 +188,7 @@ header {
     align-items: flex-start;
     left: 0px ;
     width: 300px;
-    padding: 0 0 0 16px;
+    /* padding: 0 0 0 16px; */
     margin: 24px 0;
 }
 .big-text {
@@ -237,6 +237,7 @@ header {
     width: 300px;
     padding: 0 82px 0 20px;
     margin: 24px auto;
+    padding-left: 16px;
 }
 
 .footer {
