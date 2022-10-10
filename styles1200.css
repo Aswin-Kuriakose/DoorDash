@@ -11,6 +11,9 @@
     .welcome-input button svg {
         color: #fff;
     }
+    .welcome-text h2 {
+        margin: 47px 0 32px 0;
+    }
     .sec1 {
         width: 1184px;
         flex-direction: row;
@@ -45,7 +48,9 @@
         margin-bottom: -26px;
         flex-direction: row;
         align-items:center;
-
+    }
+    .sec2 img {
+        width: 712px;
     }
     .sec2-text {
         margin :0 0 96px 0;
@@ -57,9 +62,21 @@
         font-size: 18px;
         margin: 12px 0 12px 0;
     }
+    .sec3-text, .sec2-text {
+        width: 410px;
+    }
     .sec2 a,.sec3 a {
         font-size: 16px;
-        padding: 10px 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 18px;
+    }
+    .sec3 .big-text {
+        white-space: nowrap;
+    }
+    .sec2 a {
+        width: 120px;
+        padding:11px 16px 30px 17px;
     }
     .sec3 {
         flex-direction: row;

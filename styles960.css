@@ -6,8 +6,11 @@
         justify-content: center;
         align-items:center;
     }
+    .welcome-text {
+        width: 670px;
+    }
     .welcome h2 {
-        margin:50px 0 35px -150px ;
+        /* margin:50px 0 35px -150px ; */
         position:static;
         font-size: 62px;
         line-height: 1.2em;
@@ -31,6 +34,12 @@
     }
     header {
         height: 580px;
+    }
+    .sec2 img {      
+        max-width: 713px;
+    }
+    .sec3 img {
+        max-width: 713px;
     }
     .first-row {
         width: 90%;

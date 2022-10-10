@@ -93,7 +93,7 @@ header {
 }
 .welcome-input button  {
     padding: 0px;
-    margin-left: 8px;
+    margin-right: 4px;
 }
 .welcome-link {
     margin: 18px 0;
@@ -199,7 +199,7 @@ header {
 .sec2 a {
     width: 100px;
     height: 32px;
-    padding: 6px 12px;
+    padding: 7px 12px 6px 12px;
     font-size: 14px;
     font-weight: bold;
     background: #eb1700;
@@ -209,6 +209,8 @@ header {
 .small-text {
     font-size: 14px;
     color: var(--text);
+    margin-top: 8px;
+    line-height: 1.5em;
 }
 .section3-bg {
     background: rgb(255, 240, 237);

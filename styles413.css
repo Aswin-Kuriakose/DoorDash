@@ -9,4 +9,20 @@
     .sec1-text h2 {
         white-space: nowrap;
     }
+    .sec2 {
+        display: flex;
+        flex-flow: column-reverse;
+        padding: 0px;}
+    .sec2img {
+        padding-left: 64px;
+    }
+    .sec2-text {
+        padding: 0 82px 0 16px;
+        margin: 20px auto 0px;
+        left: 0px;
+    }
+  
+    .sec2-text > * {
+        width: 300px;
+    }
 }

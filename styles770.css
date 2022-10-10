@@ -6,7 +6,6 @@
     }
     .welcome h2 {
     position: relative;
-    left: 30px;
     line-height: 1.3em;
     margin-left: 0;
     margin-right: 0;
@@ -30,7 +29,9 @@
         margin: 32px 0px;
     }
     .scooter, .store, .mobile {
-        width: 470px;
+        width: 475px;
+        max-width: 500px;
+        padding: 16px;
     }
     .sec1 h3 {
         font-size: 18px;
@@ -39,40 +40,46 @@
         font-size: 14px;
     }
     .sec2 {
+        width: 100%;
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         margin-top: 50px;
         margin-bottom: -16px;
-        gap: 50px;
     }
     .welcome-input input {
         width: 325px;
         margin: 0 0 0 8px;
     }
-   
-     
-    
+    .sec2img {
+        padding: 0px;
+    }   
     .sec2-text{
-        margin: 0 0 96px 64px ;
+        margin: 0 20px 96px 64px ;
         padding: 0;
     }
     .sec2 img {
         margin: 0px;
-        width: 40vw;
-        flex-grow: 1;
+        /* width: 40vw; */
+        /* flex-grow: 1; */
         min-width: 425px;
-        max-width: 713px;
+        max-width: 555px;
     }
     .sec3 {
+        width: 100%;
+        /* max-width: 960px; */
         padding: 96px 0;
         margin: 0px;
         display: flex;
+        align-items: center;
     }
     .sec3 img {
         margin: 0px;
         width: 40vw;
+        max-width: 1000px;
         min-width: 425px;
         flex-grow: 1;
-        max-width: 713px;
+        max-width: 555px;
     }
     .sec3-text {
         margin: 0 64px 96px 64px;
