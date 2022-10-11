@@ -17,6 +17,7 @@
     .sec1 {
         width: 1184px;
         flex-direction: row;
+        /* align-items: center; */
         justify-content: center;
         text-align: center;
         margin: 96px auto;
@@ -26,6 +27,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0 17px;
+        align-self: flex-start;
     }
     .sec1 img {
         width: 154px;
@@ -38,6 +41,8 @@
     }
     .sec1-text h3 {
         margin: 8px 0 12px 0;
+        line-height: 1.3em;
+        font-weight: 400;
     }
     .sec1-text a {
         font-size: 18px;
