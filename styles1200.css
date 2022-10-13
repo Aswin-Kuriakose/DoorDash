@@ -17,10 +17,10 @@
     .sec1 {
         width: 1184px;
         flex-direction: row;
-        /* align-items: center; */
         justify-content: center;
         text-align: center;
         margin: 96px auto;
+        transform: translateX(-37px);
     }
     .scooter ,.store,.mobile {
         display: flex;
